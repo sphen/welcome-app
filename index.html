@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>welcome app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Muli:wght@800&family=Noto+Sans&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h2 id="date"></h2>
+        <time id="time"></time>
+        <h1>
+            <span id="greeting"></span>
+            <span id="name" contenteditable="true"></span>
+        </h1>
+
+        <h2>What is your focus today?</h2>
+        <h2 id="focus" contenteditable="true"></h2>
+    <div id="sun-contain">
+        <svg id="circ" height="400" width="400" viewbox="0 0 400 400">
+            <circle id="sun" cx="200" cy="200" r="200"/>
+          </svg> 
+        </div>
+        <script src="./app.js" async defer></script>
+    </body>
+</html>
